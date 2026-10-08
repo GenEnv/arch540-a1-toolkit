@@ -21,3 +21,8 @@ Fields:
 Keep the JSON valid: strings in double quotes, commas between items, no trailing comma. If your file has a syntax error, only your entry shows an error message; the rest of the page still works.
 
 `projects.json` lists the files in display order and holds the cross-cutting remarks. The first batch of demo videos is attached to the `v1` release of this repository.
+
+## Links
+
+- Class deck (each student's own slide): https://docs.google.com/presentation/d/1XPjtIx0U5lZmkpay939JMuhR1LfokV4nct9xl7CzXt8/edit?usp=sharing
+- Comment form (the in-page comment boxes post to it): https://docs.google.com/forms/d/e/1FAIpQLSfrFx3kPWrOba2GXbBf4c7nvTuhs9LC45DHTB-zfcLDQGyZkg/viewform
