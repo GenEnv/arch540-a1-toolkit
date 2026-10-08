@@ -3,7 +3,6 @@
   "tool": "SRO Conversions in the DTES",
   "subtitle": "Tenant displacement under two policies, at city scale",
   "brief": "This tool visualizes tenant displacement on the urban scale caused by SRO conversions in the DTES. It allows users to explore scenarios through altering different thresholds set by the DTES Plan and SRA Conversion Guidelines.",
-  "description": "Maps 142 DTES SRO buildings and simulates how the unit-size minimum, retention cap and conversion targets displace tenants, per building and per person, with a compensation estimate. Three preset scenarios plus adjustable thresholds.",
   "tool_url": "https://bridgettekelly07.github.io/sro_floorplate_optimizer/",
   "tool_note": "",
   "repo_url": "https://github.com/bridgettekelly07/sro_floorplate_optimizer",

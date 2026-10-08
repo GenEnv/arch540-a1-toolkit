@@ -3,7 +3,6 @@
   "tool": "Root Room",
   "subtitle": "How much tree can the ground carry?",
   "brief": "Vancouver's street tree standards say how much soil each size of tree needs, but not where that soil can fit on a real street. Root Room starts from a real Vancouver street and tests how redesigning the ground (soil depth, soil system, connected soil space) changes the size of tree it can carry.",
-  "description": "Applies Vancouver's soil-volume standard for street trees to a real block: change soil depth, soil system and street width and see which tree sizes the ground can carry, in plan, section and axonometric. Compare scenarios and export a report for the planting plan.",
   "tool_url": "https://kaiyankay.github.io/root-room/",
   "tool_note": "",
   "repo_url": "https://github.com/kaiyankay/root-room",

@@ -3,7 +3,6 @@
   "tool": "Vancouver Solar Shading Explorer",
   "subtitle": "Solar geometry, heat gain and code-compliant shading devices",
   "brief": "A tool for designers to understand solar geometry and solar heat gains, and iteratively design code compliant exterior shading devices.",
-  "description": "Move the sun in 3D, by slider or on the sun-path chart, and watch shadows and solar heat gain change per window, floor or facade. A recommendation panel proposes the ideal horizontal or vertical device for that instant and checks it against the by-law overhang limit.",
   "tool_url": "",
   "tool_note": "",
   "repo_url": "https://github.com/willemgirard03/Shading-tool-test",

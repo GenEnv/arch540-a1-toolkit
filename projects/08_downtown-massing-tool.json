@@ -3,7 +3,6 @@
   "tool": "Downtown Massing Tool",
   "subtitle": "Tower massing against downtown Vancouver's documents",
   "brief": "This tool allows designers to test different tower massing options in Downtown Vancouver and understand how their designs measure up against building code requirements and local planning limits.",
-  "description": "Select a downtown site and get site facts plus FSR, height and setback limits derived from the planning documents (flagged confirmed, derived or needs verification), then shape one of four tower typologies and read a compliance list that points into the model. Versions can be saved and compared; a live report exports as HTML.",
   "tool_url": "https://xubynii.github.io/dtmass/src/index.html",
   "tool_note": "",
   "repo_url": "https://github.com/xubynii/dtmass",

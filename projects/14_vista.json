@@ -3,7 +3,6 @@
   "tool": "Vista",
   "subtitle": "Vancouver view protection tool",
   "brief": "A Vancouver view protection tool: designers can explore proposed towers against Vancouver's mapped view corridors, inspect approximate views, and export a visual study report.",
-  "description": "Select a downtown site, build or import a tower massing, view it from the protected view-cone points or nearby rooftops, and export a PDF view study. No Rhino needed.",
   "tool_url": "https://ruijieliu6.github.io/vancouver-tall-view-tool/",
   "tool_note": "",
   "repo_url": "https://github.com/RuijieLiu6/vancouver-tall-view-tool",

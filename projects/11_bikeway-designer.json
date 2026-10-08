@@ -3,7 +3,6 @@
   "tool": "Bikeway Designer",
   "subtitle": "Bikeway proposals on Vancouver's existing network",
   "brief": "Enables planners and community members to create bikeway proposals that build upon Vancouver's existing network, following TransLink's Rapid Implementation Design Guide for Bikeways, CoV's All Ages and Abilities Design Guidelines, and CoV's Engineering Manual.",
-  "description": "Build a bikeway proposal block by block on the existing network, verify inferred lane and parking conditions against street view, choose protection type and lane widths against the Engineering Design Manual, and watch a bike score update live, in plan, section and 3D.",
   "tool_url": "https://fl-79.github.io/540-A1-Bikeway-Designer/",
   "tool_note": "",
   "repo_url": "https://github.com/fl-79/540-A1-Bikeway-Designer",

@@ -11,8 +11,7 @@ Each tool is one file in `projects/`, for example `projects/01_curbside.json`. E
 Fields:
 
 - `tool`, `student`, `subtitle`: title line.
-- `brief`: your one-sentence description (shown as the quote).
-- `description`: two or three sentences on what the tool does.
+- `brief`: your own description of the tool, as written in the class deck.
 - `tool_url`: the live tool. `repo_url`: your repository. `links`: extra links as `{"label": "...", "url": "..."}`. `tool_note`: a short note shown next to the links, for example when the tool has to be run locally.
 - `video`: the demo video. Either a direct `.mp4` link, or a Google Drive share link (`https://drive.google.com/file/d/<id>/view`) whose sharing is set to "Anyone with the link". Drive links play in Drive's embedded player.
 - `poster`: the thumbnail shown before the video plays (`img/<nn>_poster.jpg`); replace the image file to change it.

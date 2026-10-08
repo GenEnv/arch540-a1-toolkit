@@ -3,7 +3,6 @@
   "tool": "Pocket Studio",
   "subtitle": "R1-1 laneway house tester",
   "brief": "A laneway house tool that allows you to find your lot, shape a laneway house to Vancouver's R1-1 by-laws, plan every room, render 3D models and download drawing sets, all in a single browser-based tool.",
-  "description": "Seven steps from lot to laneway house: presets, parametric position and the 4.9 m separation rule, walls, roof, windows and doors with schedules, floor plans, sun path, compliance check, materials and renders, and a report. Exports NURBS models and drawings to Rhino.",
   "tool_url": "https://balreetdhatt.github.io/Pocket-Studio---Laneway-Design/",
   "tool_note": "",
   "repo_url": "https://github.com/balreetdhatt/Pocket-Studio---Laneway-Design",

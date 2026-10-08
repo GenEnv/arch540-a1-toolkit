@@ -3,7 +3,6 @@
   "tool": "Lotwise",
   "subtitle": "R1-1 schematic multiplex design on a real lot",
   "brief": "Lotwise reads and checks any R1-1 lot against the zoning schedule, draws the permitted envelope, creates massing options, floor plans, site plan and section so a schematic multiplex design can be tested on a real site in minutes.",
-  "description": "Checks any R1-1 lot clause by clause, draws the permitted envelope, then builds massing options or test-fits the CMHC housing catalogue, producing floor plans, site plan, section, 3D view and a step-by-step report. Floor plans are still rough.",
   "tool_url": "https://kailisun98.github.io/r1-1-massing/",
   "tool_note": "",
   "repo_url": "https://github.com/kailisun98/r1-1-massing",

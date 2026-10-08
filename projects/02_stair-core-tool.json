@@ -3,7 +3,6 @@
   "tool": "Stair Core Tool",
   "subtitle": "Exit stair calculator and floor-plan egress checker",
   "brief": "Sizes and lays out the exit stairs of a building core to the Vancouver / BC / national building codes, then checks exit separation and travel distance on your floor plan.",
-  "description": "Computes exit stair count, clear width, flights and enclosure size from floor areas, occupancy and storey heights, following VBBL 2025, then BCBC 2024, then NBC 2020, with each value tagged to its clause. A second part traces walls on an uploaded plan and runs a travel-distance heat map.",
   "tool_url": "https://jiangpresident.github.io/stair-core-tool/",
   "tool_note": "",
   "repo_url": "https://github.com/jiangpresident/stair-core-tool",

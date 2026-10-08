@@ -3,7 +3,6 @@
   "tool": "Massing Studio",
   "subtitle": "VBBL 2025 code check with Rhino sync",
   "brief": "Create a Rhino3D massing that exports to a code summary for collaboration with code consultants.",
-  "description": "Set up a lot, storeys, setbacks and glazing, then export the massing to Rhino and keep editing there; every save flows back through Rhino MCP. The code check returns occupant load, exits, travel distance, washroom counts and limiting-distance flags, exported to Excel for the code consultant.",
   "tool_url": "",
   "tool_note": "Runs locally with Rhino MCP; see the README.",
   "repo_url": "https://github.com/clcabana/massing-studio",

@@ -3,7 +3,6 @@
   "tool": "R3 Zoning Feasibility Study Tool",
   "subtitle": "What a Vancouver R3 lot can hold",
   "brief": "R3 zoning allows small apartment buildings on what were single family housing streets, and this tool shows what a given lot can hold under the zoning and building code, including Vancouver's new single egress stair rules.",
-  "description": "Pick an R3 lot, see the permitted density and what assembling parcels adds, choose storeys and layout preferences, generate a unit plan and read a code summary of what is met. Also a test bed for the single-egress stair rule.",
   "tool_url": "https://yeony7626.github.io/vancouver-r3-feasibility-study/",
   "tool_note": "",
   "repo_url": "https://github.com/Yeony7626/vancouver-r3-feasibility-study",

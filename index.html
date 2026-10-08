@@ -113,7 +113,6 @@ header .meta-links{margin-top:10px;font-size:14px}
       if(p.tool_note) acts.appendChild(el('span','note',p.tool_note));
       right.appendChild(acts);
       if(p.brief) right.appendChild(el('blockquote',null,p.brief));
-      if(p.description) right.appendChild(el('p','what',p.description));
       if(p.discussion&&p.discussion.length){ var d=el('details'); d.appendChild(el('summary',null,'Discussion at the review')); var ul=el('ul'); p.discussion.forEach(function(b){ ul.appendChild(el('li',null,b)); }); d.appendChild(ul); right.appendChild(d); }
       var cm=el('div','comments'); cm.dataset.tool=p.tool; cm.hidden=true; cm.appendChild(el('h3',null,'Comments')); cm.appendChild(el('ul','list'));
       var form=el('form','cform'); var ta=document.createElement('textarea'); ta.name='comment'; ta.rows=3; ta.placeholder='Your comment'; ta.required=true; form.appendChild(ta);

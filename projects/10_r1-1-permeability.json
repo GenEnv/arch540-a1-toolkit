@@ -3,7 +3,6 @@
   "tool": "R1-1 Permeability Tool",
   "subtitle": "Impermeable materials and stormwater on R1-1 lots",
   "brief": "This tool helps designers comply with the impermeability bylaw for the maximum amount of building and hardscape that can be built on R1-1 lots, as well as how different percentages of permeability affect stormwater management in the city.",
-  "description": "Checks the 75% impermeable and 50% building limits on one R1-1 lot with editable paving figures, and a city-wide slider that colours every lot and translates the share into stormwater volume against the Rain City 40% target.",
   "tool_url": "https://kevinjinn6.github.io/arch540-impermeable-materials/",
   "tool_note": "",
   "repo_url": "https://github.com/kevinjinn6/arch540-impermeable-materials",

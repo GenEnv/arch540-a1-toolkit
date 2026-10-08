@@ -3,7 +3,6 @@
   "tool": "Curbside",
   "subtitle": "Schematic parklet design for Vancouver streets",
   "brief": "Curbside helps anyone from a café owner to a designer turn an idea for a Vancouver parklet into a site-specific proposal that's checked against the City's Parklet Manual as they design.",
-  "description": "Place a parklet on a real Vancouver curb from OpenStreetMap, generate layouts from program priorities, arrange furniture and check clearances, street widths and sun against the Parklet Manual. Exports a schematic or technical review package and a Rhino model; every check cites its source and says whether it is a provisional or confirmed pass.",
   "tool_url": "https://jennabruggeman.github.io/curbside/",
   "tool_note": "",
   "repo_url": "https://github.com/JennaBruggeman/curbside",

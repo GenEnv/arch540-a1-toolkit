@@ -3,7 +3,6 @@
   "tool": "Broadway Corridor Massing Tool",
   "subtitle": "Massing against the Broadway Plan",
   "brief": "A single-file, browser-based tool for testing building massing on any Vancouver lot against the Broadway Plan and the City's zoning schedules, with up to 1 km of surrounding buildings, streets, parks and zoning drawn as a 3D diagram.",
-  "description": "Type an address along Broadway to load the lot, 1 km of context and the Broadway Plan pre-zoned envelopes, assemble parcels, and size a podium-and-tower massing to the FSR cap or propose a rezoning.",
   "tool_url": "https://josephtong86.github.io/Broadway-Visualizer/",
   "tool_note": "",
   "repo_url": "https://github.com/JosephTong86/Broadway-Visualizer",
