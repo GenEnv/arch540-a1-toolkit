@@ -7,7 +7,7 @@
   "tool_note": "Full demo requires downloading the package (Rhino link).",
   "repo_url": "https://github.com/Ay-xa/ARCH-540",
   "links": [],
-  "video": "https://github.com/GenEnv/arch540-a1-toolkit/releases/download/v1/05_Ayden_He_MassShadeLight.mp4",
+  "video": "https://drive.google.com/file/d/19iSQKrkVt4wLGeJ9cA8HJrtahOmDJCXR/view",
   "poster": "img/05_poster.jpg",
   "discussion": [
     "A big development since the last check-in. This is effectively a Rhino plugin with a web interface, which is one of several possible formats: a true Rhino plugin, where panel, parameters and analysis layers all live inside Rhino; a web interface with Rhino running in the background (for instance streaming screenshots into the page) so everything is in one window; or, for a wider audience without Rhino, Rhino Compute, a rented cloud Rhino that gives Rhino and Grasshopper capacity to a web page much like three.js.",

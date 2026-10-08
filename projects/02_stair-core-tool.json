@@ -7,7 +7,7 @@
   "tool_note": "",
   "repo_url": "https://github.com/jiangpresident/stair-core-tool",
   "links": [],
-  "video": "https://github.com/GenEnv/arch540-a1-toolkit/releases/download/v1/02_Guoxian_Xu_Stair_Core_Tool.mp4",
+  "video": "https://drive.google.com/file/d/1dWfNl3TwVy84RXy14D4j5Uo-HwOa3Jwi/view",
   "poster": "img/02_poster.jpg",
   "discussion": [
     "Can it read JPG/PNG plans? Yes, but pixel-based detection works poorly; the vision step was done in GPT and the result handed to Claude Code, since GPT's vision is stronger.",

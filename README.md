@@ -19,7 +19,7 @@ Fields:
 
 Keep the JSON valid: strings in double quotes, commas between items, no trailing comma. If your file has a syntax error, only your entry shows an error message; the rest of the page still works.
 
-`projects.json` lists the files in display order and holds the cross-cutting remarks. The first batch of demo videos is attached to the `v1` release of this repository.
+`projects.json` lists the files in display order and holds the cross-cutting remarks. The demo videos live in the shared Google Drive folder "ARCH540 A1 demo videos" (https://drive.google.com/drive/folders/1q9Y9fK2_vYvN-ytTM_84y0i4cQvriu2l); copies are also attached to the `v1` release of this repository.
 
 ## Links
 

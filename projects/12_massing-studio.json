@@ -7,7 +7,7 @@
   "tool_note": "Web version; the Rhino sync needs the local app (see README).",
   "repo_url": "https://github.com/clcabana/massing-studio",
   "links": [],
-  "video": "https://github.com/GenEnv/arch540-a1-toolkit/releases/download/v1/12_Claudio_Cabana_Massing_Studio.mp4",
+  "video": "https://drive.google.com/file/d/1wXzAR8ZQes9awb6V9RtKq5AITiFSFG-G/view",
   "poster": "img/12_poster.jpg",
   "discussion": [
     "A good point in principle: do not rebuild city 3D modelling in the tool; Rhino already does that, so use Claude to build only the missing part. That is the real workflow.",

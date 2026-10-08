@@ -7,7 +7,7 @@
   "tool_note": "",
   "repo_url": "https://github.com/bridgettekelly07/sro_floorplate_optimizer",
   "links": [],
-  "video": "https://github.com/GenEnv/arch540-a1-toolkit/releases/download/v1/15_Bridgette_Kelly_SRO_Conversions_DTES.mp4",
+  "video": "https://drive.google.com/file/d/10Qt4VO4s9OE9x3Cd6EjOfy9xMXthAxgC/view",
   "poster": "img/15_poster.jpg",
   "discussion": [
     "Are these the actual plans of each building? Derived, not surveyed: building area from footprints, units per building from a survey inventory, floors from LiDAR, giving units per floor and area per unit; Claude did not understand real architectural layouts, so the plan is generated from those figures and the assumption sliders change it.",
