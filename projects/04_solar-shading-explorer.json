@@ -3,7 +3,7 @@
   "tool": "Vancouver Solar Shading Explorer",
   "subtitle": "Solar geometry, heat gain and code-compliant shading devices",
   "brief": "A tool for designers to understand solar geometry and solar heat gains, and iteratively design code compliant exterior shading devices.",
-  "tool_url": "",
+  "tool_url": "https://willemgirard03.github.io/Shading-tool-test/",
   "tool_note": "",
   "repo_url": "https://github.com/willemgirard03/Shading-tool-test",
   "links": [],
