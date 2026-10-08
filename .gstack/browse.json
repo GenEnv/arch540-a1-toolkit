@@ -1,8 +1,8 @@
 {
-  "pid": 43718,
-  "port": 37182,
-  "token": "c03e4536-f3e1-4fba-b2b2-c3ee83ee8f53",
-  "startedAt": "2026-10-08T21:51:44.933Z",
+  "pid": 44019,
+  "port": 58171,
+  "token": "04be2e14-61b5-4507-bc21-3d06e3fc45ee",
+  "startedAt": "2026-10-08T21:53:46.109Z",
   "serverPath": "/Users/xunliu/.claude/skills/gstack/browse/src/server.ts",
   "mode": "launched",
   "configHash": "303a7eeccc03078b"
