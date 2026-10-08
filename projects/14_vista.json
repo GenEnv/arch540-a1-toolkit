@@ -1,0 +1,24 @@
+{
+  "student": "Ruijie Liu",
+  "tool": "Vista",
+  "subtitle": "Vancouver view protection tool",
+  "brief": "A Vancouver view protection tool: designers can explore proposed towers against Vancouver's mapped view corridors, inspect approximate views, and export a visual study report.",
+  "description": "Select a downtown site, build or import a tower massing, view it from the protected view-cone points or nearby rooftops, and export a PDF view study. No Rhino needed.",
+  "tool_url": "https://ruijieliu6.github.io/vancouver-tall-view-tool/",
+  "tool_note": "",
+  "repo_url": "https://github.com/RuijieLiu6/vancouver-tall-view-tool",
+  "links": [
+    {
+      "label": "Recorded demo (Google Drive)",
+      "url": "https://drive.google.com/file/d/1DWnL5P9Co1HlqFtK4MfyUDTMS3ZeET8c/view"
+    }
+  ],
+  "video": "https://github.com/GenEnv/arch540-a1-toolkit/releases/download/v1/14_Ruijie_Liu_Vista_View_Protection.mp4",
+  "poster": "img/14_poster.jpg",
+  "discussion": [
+    "Photographers will like this.",
+    "The eye level of each view is 1.6 m, simplified; an earlier version let the user change it. The inspection height can be set and the affected part of the tower is highlighted.",
+    "How was the level of context detail (parapets) achieved? The Vancouver context was generated in the modelling class, then refined as the site expanded, with loops of automated inspection; it cost tokens.",
+    "Show the actual 3D view cones from the by-law (points and angles) with a button, so the space you cannot build in is visible. Two functions follow: select a lot and see directly how high you can build under the cones; or, before selecting, show the maximum buildable height for every lot by overlapping all cones (a boolean operation). Flagged as very important."
+  ]
+}

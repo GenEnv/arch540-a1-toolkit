@@ -1,0 +1,23 @@
+{
+  "student": "Guoxian Xu",
+  "tool": "Stair Core Tool",
+  "subtitle": "Exit stair calculator and floor-plan egress checker",
+  "brief": "Sizes and lays out the exit stairs of a building core to the Vancouver / BC / national building codes, then checks exit separation and travel distance on your floor plan.",
+  "description": "Computes exit stair count, clear width, flights and enclosure size from floor areas, occupancy and storey heights, following VBBL 2025, then BCBC 2024, then NBC 2020, with each value tagged to its clause. A second part traces walls on an uploaded plan and runs a travel-distance heat map.",
+  "tool_url": "https://jiangpresident.github.io/stair-core-tool/",
+  "tool_note": "",
+  "repo_url": "https://github.com/jiangpresident/stair-core-tool",
+  "links": [],
+  "video": "https://github.com/GenEnv/arch540-a1-toolkit/releases/download/v1/02_Guoxian_Xu_Stair_Core_Tool.mp4",
+  "poster": "img/02_poster.jpg",
+  "discussion": [
+    "Can it read JPG/PNG plans? Yes, but pixel-based detection works poorly; the vision step was done in GPT and the result handed to Claude Code, since GPT's vision is stronger.",
+    "The first thing to improve is the interface: decide the minimum information a first-time user needs, surface the main function (currently in the bottom-left corner) and hide secondary information behind toggles.",
+    "Reading raster plans into walls is a genuinely hard problem that firms employ full-time people on. For a prototype it is enough to prove the workflow and state clearly that this step can be solved by current or near-future vision models; the manual tracing fallback already exists.",
+    "For the travel-distance check the walls do not need to be accurate; a rough sketch is enough, and the example was traced in about a minute.",
+    "The first part sizes stairs at the code minimum; the plan part lets you enlarge them, and a stair turns red if shrunk below the minimum.",
+    "What about floors with different storey heights? The calculation is based on the ground floor, i.e. the largest demand.",
+    "The two parts feel disconnected. Consider making the plan the main interface, with stair details in section, and link them: changing a door side in the plan does not update the 3D or section view, and tall ground floors or different door positions per level should flow through. A split view where plan edits update the 3D would close the loop.",
+    "Since detection reads poorly, would a plugin for a modelling tool (Revit) be better than a web page? The web version is deliberate: testing needs no accuracy and takes a minute, where a modelling workflow takes longer. It is a scope trade-off between easy-to-use and accurate; as an early-stage tool it is very easy to use. Worth thinking about how first-year students would be encouraged to use it."
+  ]
+}

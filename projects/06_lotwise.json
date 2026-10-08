@@ -1,0 +1,22 @@
+{
+  "student": "Kaili Sun",
+  "tool": "Lotwise",
+  "subtitle": "R1-1 schematic multiplex design on a real lot",
+  "brief": "Lotwise reads and checks any R1-1 lot against the zoning schedule, draws the permitted envelope, creates massing options, floor plans, site plan and section so a schematic multiplex design can be tested on a real site in minutes.",
+  "description": "Checks any R1-1 lot clause by clause, draws the permitted envelope, then builds massing options or test-fits the CMHC housing catalogue, producing floor plans, site plan, section, 3D view and a step-by-step report. Floor plans are still rough.",
+  "tool_url": "https://kailisun98.github.io/r1-1-massing/",
+  "tool_note": "",
+  "repo_url": "https://github.com/kailisun98/r1-1-massing",
+  "links": [],
+  "video": "https://github.com/GenEnv/arch540-a1-toolkit/releases/download/v1/06_Kaili_Sun_Lotwise_R1-1.mp4",
+  "poster": "img/06_poster.jpg",
+  "discussion": [
+    "Do the CMHC options produce the CMHC plans? Not exactly; the catalogue's schematic plans were fed in so the generated layouts resemble their circulation, plus clearance rules (915 mm exterior doors, 815 mm interior) and area minimums (105 m² three-bed, 80 m² two-bed). Areas are right; furniture layouts are not.",
+    "CMHC is releasing construction documents, which could be good training material.",
+    "Floor-plan generation is a large research area in computational design: image-based methods trained on colour-coded room datasets, and graph-based methods where rooms are nodes. There are ways to make generation more controllable; for this stage the tool is already useful and user-friendly.",
+    "Drop the furniture. For an early-phase developer tool, room labels and sizes are enough; even rooms may be distracting. Show units as blocks with areas and bedroom counts (an 800 sf one-bed, a 2,000 sf two-bed); unit and fire separations matter more than room layouts. It depends on who uses the tool and at what stage; a later-stage tool would focus on plans. Rules can also be set room by room; if sizes and connections are right, furniture is unnecessary.",
+    "Topography is read from Vancouver data via OpenStreetMap rather than official GIS, because GIS produced blotchy patches in the map. Verify against real sites so that a maximum building height is not skewed by a bad ground level; even GIS data would need a site survey as ground truth. The 2009 Vancouver building-footprint and lot dataset has lot geometry and elevation.",
+    "The exit stair is not yet editable but should be; stair placement matters a lot in R1-1, and a shared single exit was explored but needs more rules.",
+    "The street front is pulled from data (the wider street). Corner lots are not yet handled (different frontage requirements); lots without a rear lane are another fringe case that rules out sixplexes and accessory units."
+  ]
+}

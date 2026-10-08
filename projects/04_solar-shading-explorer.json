@@ -1,0 +1,23 @@
+{
+  "student": "Willem Girard",
+  "tool": "Vancouver Solar Shading Explorer",
+  "subtitle": "Solar geometry, heat gain and code-compliant shading devices",
+  "brief": "A tool for designers to understand solar geometry and solar heat gains, and iteratively design code compliant exterior shading devices.",
+  "description": "Move the sun in 3D, by slider or on the sun-path chart, and watch shadows and solar heat gain change per window, floor or facade. A recommendation panel proposes the ideal horizontal or vertical device for that instant and checks it against the by-law overhang limit.",
+  "tool_url": "",
+  "tool_note": "",
+  "repo_url": "https://github.com/willemgirard03/Shading-tool-test",
+  "links": [],
+  "video": "https://github.com/GenEnv/arch540-a1-toolkit/releases/download/v1/04_Willem_Girard_Shading_Solar_Heat_Gain.mp4",
+  "poster": "img/04_poster.jpg",
+  "discussion": [
+    "\"I wish I had this\" for an earlier studio.",
+    "Can you change the input building or upload your own model? Not yet; it exports to Rhino. Floors are arrayed recursively (each matches the one below), and rotating floors produced a twisting tower live; a \"match floors above\" checkbox applies changes upward or keeps a floor unique.",
+    "Geolocation: Vancouver weather files for now, but any weather file could be used, and the regulation values can be edited for another jurisdiction.",
+    "Make the facade parametric so that when the building rotates the devices update with the sun angle, and let the tool optimize the shading automatically.",
+    "Extend the facade typologies: the common market types and more designed types, and work out how to parameterize each so devices fit it. Operable external shading (the European rotating type) was raised; the devices already twist.",
+    "Self-critique: too many settings; window types, window systems and four sides per floor make it hard to find what you want to edit. Decide the minimal information to present. A commercial product that builds parametric facade skills into its interface, with an icon per facade type applied to the building, was cited as a reference for a straightforward interface.",
+    "The 3D angle globes are nice to look at but overwhelming when making graphics; they can be turned off, and a more minimal default was planned.",
+    "Viewports can be customized and saved, like Rhino; the limit is screen size."
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "student": "Joseph Tong",
+  "tool": "Broadway Corridor Massing Tool",
+  "subtitle": "Massing against the Broadway Plan",
+  "brief": "A single-file, browser-based tool for testing building massing on any Vancouver lot against the Broadway Plan and the City's zoning schedules, with up to 1 km of surrounding buildings, streets, parks and zoning drawn as a 3D diagram.",
+  "description": "Type an address along Broadway to load the lot, 1 km of context and the Broadway Plan pre-zoned envelopes, assemble parcels, and size a podium-and-tower massing to the FSR cap or propose a rezoning.",
+  "tool_url": "https://josephtong86.github.io/Broadway-Visualizer/",
+  "tool_note": "",
+  "repo_url": "https://github.com/JosephTong86/Broadway-Visualizer",
+  "links": [],
+  "video": "https://github.com/GenEnv/arch540-a1-toolkit/releases/download/v1/13_Joseph_Tong_Broadway_Corridor_Massing.mp4",
+  "poster": "img/13_poster.jpg",
+  "discussion": [
+    "Is density tied to FSR nodes? Upzoning is highest right around stations and lower farther away; the tool tests maximum density only.",
+    "LiDAR, OpenStreetMap, another dataset and topography were tried, but old topography did not align with building heights and footprints, so the model was simplified.",
+    "The modelled site is not visually distinct from the highlighted envelopes; make it clearer. There is no warning when the limit is exceeded; the user clicks the FSR-cap button, and a warning could be added.",
+    "Besides the FSR cap there are no other indicators yet; you tweak the building and try a proposal.",
+    "A shadow study would be easy to add with a few preset views and times.",
+    "Density is also regulated by the Broadway Plan and transit-oriented areas (minimum heights around stations).",
+    "The coloured boxes show height limits for other sites but not for the site being massed; represent what you are allowed to build on your own site in the corridor.",
+    "A bigger question for everyone: visualize the maximum or minimum mass across a whole district, so the regulation landscape informs collective form rather than single buildings. Change one parameter at district level and quantify the result (population, traffic) before and after rezoning; planning departments run such rezoning studies (in some cities a \"reasonable worst-case scenario\" study) on hundreds of sites, and this logic could support that.",
+    "The greyed-out parcels are industrial mixed-use and cannot be rezoned."
+  ]
+}

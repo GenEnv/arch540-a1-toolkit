@@ -1,0 +1,22 @@
+{
+  "student": "Ayden He",
+  "tool": "MassShadeLight",
+  "subtitle": "Massing × facade shading × overheating and daylight",
+  "brief": "It shows architects how massing, windows and shading choices affect daylight and overheating against the Passive House limit (no more than 10 % of annual hours above 25 °C), as quick estimates for comparing early design options, not energy simulation.",
+  "description": "Adjust massing, notches, atrium and shading devices and see daylight and overheating diagrams update live, with the model rebuilt in Rhino through MCP. Devices are learned from images and stored in a repository; iterations can be saved and compared.",
+  "tool_url": "https://ay-xa.github.io/ARCH-540/Openning_Shade_Relation_Tool/01_Prototype/Strip_Window/Massing_v01/massing-tool-en.html",
+  "tool_note": "Full demo requires downloading the package (Rhino link).",
+  "repo_url": "https://github.com/Ay-xa/ARCH-540",
+  "links": [],
+  "video": "https://github.com/GenEnv/arch540-a1-toolkit/releases/download/v1/05_Ayden_He_MassShadeLight.mp4",
+  "poster": "img/05_poster.jpg",
+  "discussion": [
+    "A big development since the last check-in. This is effectively a Rhino plugin with a web interface, which is one of several possible formats: a true Rhino plugin, where panel, parameters and analysis layers all live inside Rhino; a web interface with Rhino running in the background (for instance streaming screenshots into the page) so everything is in one window; or, for a wider audience without Rhino, Rhino Compute, a rented cloud Rhino that gives Rhino and Grasshopper capacity to a web page much like three.js.",
+    "An earlier web-only version ran much smoother; the plan is to bring the interface back to the web, let Rhino or Rhino Compute compute in the background, and pull Ladybug/Radiance data back into the page.",
+    "The target user decides the format: the public has no design software, designers do and a plugin suits them. Presets of shading patterns would help as a starting point, and shading could be tied to interior program, since room use changes shading needs; massing could then be optimized with program.",
+    "Another small tool already weights program needs (light, heat, views) per plan cell and auto-populates program into the plan; the current tool combines pieces of several small tools.",
+    "The design question matters: the Solar Shading Explorer covers standard facades, this tool very non-standard ones; what lies in between, and what library makes sense (the most common Vancouver facades, how non-standard to go)?",
+    "Devices that change through the day (a kinetic facade): a building-rotation parameter exists and devices could be linked to sun angle over time; not done yet.",
+    "Self-critique: the topology-operation interface is not intuitive (defining a notch and how many floors it penetrates), and the performance data could be summarized into recommendations designers can read. Much existing research on interpreting thermal environments and curating facade types is worth drawing on if this becomes a serious project."
+  ]
+}

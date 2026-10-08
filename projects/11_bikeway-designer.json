@@ -1,0 +1,23 @@
+{
+  "student": "Felicity Li",
+  "tool": "Bikeway Designer",
+  "subtitle": "Bikeway proposals on Vancouver's existing network",
+  "brief": "Enables planners and community members to create bikeway proposals that build upon Vancouver's existing network, following TransLink's Rapid Implementation Design Guide for Bikeways, CoV's All Ages and Abilities Design Guidelines, and CoV's Engineering Manual.",
+  "description": "Build a bikeway proposal block by block on the existing network, verify inferred lane and parking conditions against street view, choose protection type and lane widths against the Engineering Design Manual, and watch a bike score update live, in plan, section and 3D.",
+  "tool_url": "https://fl-79.github.io/540-A1-Bikeway-Designer/",
+  "tool_note": "",
+  "repo_url": "https://github.com/fl-79/540-A1-Bikeway-Designer",
+  "links": [],
+  "video": "https://github.com/GenEnv/arch540-a1-toolkit/releases/download/v1/11_Felicity_Li_Bikeway_Designer.mp4",
+  "poster": "img/11_poster.jpg",
+  "discussion": [
+    "After so many abstract massing tools, it is grounding to see the actual city and street view; the panning design view is neat.",
+    "Combine the Nano Banana rendering idea with the Google Street View panel: screenshot the street view and render the proposed lane onto it.",
+    "Overlay the impact of the change on traffic conditions, if such data exist; planners would love it, but adding a lane often removes parking, so the consequences should be visible. This feature is already planned.",
+    "A navigation mode: route from A to B using only bike lanes and score a route by how many metres lack protection; from there, recommend where lanes are most needed rather than leaving the user to guess. Geographic research on where lanes are needed could drive the recommendations.",
+    "How is the bike score calculated? AI-calculated from a UBC study of bike scores in Vancouver (incline, protection, redundancy with parallel routes), not yet validated. That is fine if grounded in the research; cities compute bike scores differently (slope, points of interest, traffic).",
+    "Safety at busy intersections (right-turning cars, bike signals); include traffic lights. Vancouver open data has bike-crash counts per street, a useful reference for where protection is needed.",
+    "Small UI tweaks: rename toggles to something more intuitive (compare, design); allow design elements along the lane, as the building-design tools do.",
+    "A really exciting tool; intersections make it infinitely more complicated."
+  ]
+}

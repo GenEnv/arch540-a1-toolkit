@@ -1,0 +1,21 @@
+{
+  "student": "Balreet Dhatt",
+  "tool": "Pocket Studio",
+  "subtitle": "R1-1 laneway house tester",
+  "brief": "A laneway house tool that allows you to find your lot, shape a laneway house to Vancouver's R1-1 by-laws, plan every room, render 3D models and download drawing sets, all in a single browser-based tool.",
+  "description": "Seven steps from lot to laneway house: presets, parametric position and the 4.9 m separation rule, walls, roof, windows and doors with schedules, floor plans, sun path, compliance check, materials and renders, and a report. Exports NURBS models and drawings to Rhino.",
+  "tool_url": "https://balreetdhatt.github.io/Pocket-Studio---Laneway-Design/",
+  "tool_note": "",
+  "repo_url": "https://github.com/balreetdhatt/Pocket-Studio---Laneway-Design",
+  "links": [],
+  "video": "https://github.com/GenEnv/arch540-a1-toolkit/releases/download/v1/07_Balreet_Dhatt_Pocket_Studio_Laneway_House.mp4",
+  "poster": "img/07_poster.jpg",
+  "discussion": [
+    "Joking verdict: it looks ready to issue for construction.",
+    "Floor plans are the weak part; CMHC drawings were referenced but did not translate.",
+    "Materials and textures: the tool was first asked to code them, then specific materials were requested (a Belgian brick). More would have been done with more tokens, since the floor-plan work used up the credits.",
+    "The UI style and transitions are intuitive. The first version had generic AI styling (pill-shaped forms); a web-design interface skill with standards was uploaded, then the interface was iterated many times. \"Impeccable\" was not used because it is a Claude Code skill and the project was built in Claude chat; linking the project folder in Claude Code and running the skill to review the UX was suggested.",
+    "Working tips: change one panel at a time so versions can be compared; when changing a design decision, ask for prototypes first and choose from visual options.",
+    "Ceiling heights and roof pitch stay within code: the check reports \"half a metre too high\" and the user adjusts. An auto-conforming version was tried but it takes control away from the user."
+  ]
+}

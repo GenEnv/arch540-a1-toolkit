@@ -1,0 +1,20 @@
+{
+  "student": "Bridgette Kelly",
+  "tool": "SRO Conversions in the DTES",
+  "subtitle": "Tenant displacement under two policies, at city scale",
+  "brief": "This tool visualizes tenant displacement on the urban scale caused by SRO conversions in the DTES. It allows users to explore scenarios through altering different thresholds set by the DTES Plan and SRA Conversion Guidelines.",
+  "description": "Maps 142 DTES SRO buildings and simulates how the unit-size minimum, retention cap and conversion targets displace tenants, per building and per person, with a compensation estimate. Three preset scenarios plus adjustable thresholds.",
+  "tool_url": "https://bridgettekelly07.github.io/sro_floorplate_optimizer/",
+  "tool_note": "",
+  "repo_url": "https://github.com/bridgettekelly07/sro_floorplate_optimizer",
+  "links": [],
+  "video": "https://github.com/GenEnv/arch540-a1-toolkit/releases/download/v1/15_Bridgette_Kelly_SRO_Conversions_DTES.mp4",
+  "poster": "img/15_poster.jpg",
+  "discussion": [
+    "Are these the actual plans of each building? Derived, not surveyed: building area from footprints, units per building from a survey inventory, floors from LiDAR, giving units per floor and area per unit; Claude did not understand real architectural layouts, so the plan is generated from those figures and the assumption sliders change it.",
+    "The generated plans ignore building geometry (every building becomes a linear corridor). The set of buildings is finite, so the data could be curated better: use real floor plans where they exist (perhaps 30% of buildings) to sharpen the assumptions. Real floor plates were tried, but not every building is entirely SRO and corridors came out 10 m wide, so it was simplified. Claude could probably be trained to read these plans.",
+    "The direction is good: not one building's form but a collective result, policy linked directly to data, with design knowledge embedded.",
+    "The simulator of unit sizes and configurations and the effect on people is a highlight. A (defunded) public-housing project converting an East Vancouver warehouse into SROs at the city's unit minimums, with washrooms as a share of units, suggests applying the same logic to a potential adaptive-reuse site.",
+    "The graphics are very good. Claude first produced one huge HTML file that became hard to edit, so it was split into smaller files per aspect; references were the student's own graphics, with descriptive language and six or seven options to choose from (about four reference images in total). The trees were their own sub-project (controllable line work, repeated attributes for performance) and remain the weakest part."
+  ]
+}

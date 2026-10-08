@@ -1,0 +1,23 @@
+{
+  "student": "Claudio Cabana",
+  "tool": "Massing Studio",
+  "subtitle": "VBBL 2025 code check with Rhino sync",
+  "brief": "Create a Rhino3D massing that exports to a code summary for collaboration with code consultants.",
+  "description": "Set up a lot, storeys, setbacks and glazing, then export the massing to Rhino and keep editing there; every save flows back through Rhino MCP. The code check returns occupant load, exits, travel distance, washroom counts and limiting-distance flags, exported to Excel for the code consultant.",
+  "tool_url": "",
+  "tool_note": "Runs locally with Rhino MCP; see the README.",
+  "repo_url": "https://github.com/clcabana/massing-studio",
+  "links": [],
+  "video": "https://github.com/GenEnv/arch540-a1-toolkit/releases/download/v1/12_Claudio_Cabana_Massing_Studio.mp4",
+  "poster": "img/12_poster.jpg",
+  "discussion": [
+    "A good point in principle: do not rebuild city 3D modelling in the tool; Rhino already does that, so use Claude to build only the missing part. That is the real workflow.",
+    "Setting up a site in Rhino (GIS, cropping, big files) is the hated part; the aim is to get straight to the puzzle (how many washrooms and exits) and start designing; a code consultant will do the real compliance later.",
+    "Is this the MCP? Yes, which is why it must run locally; the GitHub README lists both the web page and the local app.",
+    "Glazing and limiting distance are stored per block, 50% on all faces by default and editable. The six flags are mostly occupancy adjacencies and fire separations to work out with a consultant; \"zoning not checked\" is a bug to fix.",
+    "Validation: an R3 project's construction drawings (elevations, sections, plans) were fed in and the generated code report compared with the consultant's code summary; it matched entirely. Classmates' studio projects could be checked the same way.",
+    "What happens if new geometry is drawn in Rhino and saved? In a live test a new box was partly recognized (layers bumped) and an L-shape was not; the sync is more of an export-then-watch than a true two-way edit. A built-in layer system per occupancy would help; it can be fixed.",
+    "A Rhino plugin was considered, but the saved-iterations view is nicer on the web; the site is not flat and 3D topography (as in Lotwise) is missing.",
+    "The collapsible menus keep the interface simple and easy to explore."
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "student": "Kaiyan Huang",
+  "tool": "Root Room",
+  "subtitle": "How much tree can the ground carry?",
+  "brief": "Vancouver's street tree standards say how much soil each size of tree needs, but not where that soil can fit on a real street. Root Room starts from a real Vancouver street and tests how redesigning the ground (soil depth, soil system, connected soil space) changes the size of tree it can carry.",
+  "description": "Applies Vancouver's soil-volume standard for street trees to a real block: change soil depth, soil system and street width and see which tree sizes the ground can carry, in plan, section and axonometric. Compare scenarios and export a report for the planting plan.",
+  "tool_url": "https://kaiyankay.github.io/root-room/",
+  "tool_note": "",
+  "repo_url": "https://github.com/kaiyankay/root-room",
+  "links": [],
+  "video": "https://github.com/GenEnv/arch540-a1-toolkit/releases/download/v1/09_Kaiyan_Huang_Root_Room.mp4",
+  "poster": "img/09_poster.jpg",
+  "discussion": [
+    "This fits researchers as much as designers; the depth of research into soil and tree types and the academic graphic style stand out; a good landscape counterpart to the architecture tools.",
+    "Section drawings per tree are vector drawings assembled from different sources; a full library was wanted but there was not enough room, so colours distinguish species.",
+    "Add \"?\" explanations under the soil systems (structural soil, soil cells, credited vs. visible soil). Native soil counts fully; engineered soil counts about half for planting.",
+    "Is there open data on soil contamination? The city was emailed for soil data; Toronto has a soil calculator; for now Rhino is used to calculate depths and volumes.",
+    "A tool can also be built for yourself, to organize information and learn a topic. The isometric view is strong; finish it (it is token-heavy) and use it as the promotional image on the homepage.",
+    "Predict root depth and spread in the section and project tree growth over time, so architects can see where excavation and new buildings interact with trees; a bridge between landscape and architecture. A former student's GP project had a website of root plans in 2D; that data has been requested so different tree ages can be shown.",
+    "The building–tree relationship matters: roots grow differently next to existing buildings and depending on nutrition; add the time dimension and seasonality; canopy size and seasonality can all be parameters in the 3D tree.",
+    "General housekeeping: if GitHub limits are hit, apply for an education account; as tools get heavier, organize complexity (split one HTML file into a structure of pages, load 3D context only for the region in view); periodically ask Claude, in a fresh session, to clean out unused files before pushing."
+  ]
+}

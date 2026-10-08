@@ -1,0 +1,28 @@
+{
+  "projects": [
+    "projects/01_curbside.json",
+    "projects/02_stair-core-tool.json",
+    "projects/03_r3-feasibility.json",
+    "projects/04_solar-shading-explorer.json",
+    "projects/05_massshadelight.json",
+    "projects/06_lotwise.json",
+    "projects/07_pocket-studio.json",
+    "projects/08_downtown-massing-tool.json",
+    "projects/09_root-room.json",
+    "projects/10_r1-1-permeability.json",
+    "projects/11_bikeway-designer.json",
+    "projects/12_massing-studio.json",
+    "projects/13_broadway-corridor.json",
+    "projects/14_vista.json",
+    "projects/15_sro-conversions.json"
+  ],
+  "cross_cutting": [
+    "Interface quality is now a design task, not a by-product. Skills such as \"impeccable\" and \"frontend-design\" and a Claude Design round trip (import a visual language, or restyle and export) are the quickest ways to remove generic AI styling. Students who did this will share their workflow.",
+    "Decide the minimum information a first-time user needs on screen; move everything else behind toggles. This came up for the stair tool, the shading tool and the massing tools alike.",
+    "Floor-plan generation is the common weak spot. For early-phase tools, areas, unit blocks and adjacencies are enough; furniture and room layouts can be dropped. Where plans matter, controllable methods exist (rule sets per room, graph-based generation, preference loops with agents).",
+    "Choose the format deliberately: web page, Rhino plugin, web page with Rhino in the background, or Rhino Compute for users without Rhino. Each student should state who the user is and pick accordingly.",
+    "Several tools point toward the same next question: regulation as a collective, district-scale form rather than a single-lot check (massing envelopes, permeability, view cones, SRO policy). Changing one parameter at district level and quantifying the result is the direction of most interest for Phase 2.",
+    "Housekeeping as tools grow: split large HTML files, load 3D context by region, ask Claude in a fresh session to remove unused files, and apply for a GitHub education account if limits are hit.",
+    "The pin-up format worked and will be repeated in Phase 2. Peer reviews go to GitHub issues (or the class deck's speaker notes); the recording is processed into these notes so comments are tracked."
+  ]
+}

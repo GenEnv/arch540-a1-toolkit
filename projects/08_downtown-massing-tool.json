@@ -1,0 +1,22 @@
+{
+  "student": "Sinnie Choi",
+  "tool": "Downtown Massing Tool",
+  "subtitle": "Tower massing against downtown Vancouver's documents",
+  "brief": "This tool allows designers to test different tower massing options in Downtown Vancouver and understand how their designs measure up against building code requirements and local planning limits.",
+  "description": "Select a downtown site and get site facts plus FSR, height and setback limits derived from the planning documents (flagged confirmed, derived or needs verification), then shape one of four tower typologies and read a compliance list that points into the model. Versions can be saved and compared; a live report exports as HTML.",
+  "tool_url": "https://xubynii.github.io/dtmass/src/index.html",
+  "tool_note": "",
+  "repo_url": "https://github.com/xubynii/dtmass",
+  "links": [],
+  "video": "https://github.com/GenEnv/arch540-a1-toolkit/releases/download/v1/08_Sinnie_Choi_Downtown_Massing_Tool.mp4",
+  "poster": "img/08_poster.jpg",
+  "discussion": [
+    "The icons for design strategies and typologies and the version comparison were singled out.",
+    "It would be cool to push the massing into Revit as a design assist.",
+    "A floor-plan feature was started, but service spaces come out invisible; an exit-stair travel-distance check shows dead ends (it works on parking levels, not yet on residential floors). Trying to put too much into one tool.",
+    "How was the layout generation prompted? Minimal prompting worked best: start by asking it to calculate exit distance from walls and doors to stairs, which worked; when plans went strange, switch to a distance colour map; and ask it to study cases online before generating.",
+    "The home-count estimate is based on the unreliable plan generation, so don't rely on it; the parking-stall count is more reliable.",
+    "Masses can be dragged in plan, with precise adjustments; floor-plate adjustments are buggy.",
+    "A red dot hints at problem floors; individual floors can be locked; the parking ramp function exists but does not really work yet."
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "student": "Kevin Jinn",
+  "tool": "R1-1 Permeability Tool",
+  "subtitle": "Impermeable materials and stormwater on R1-1 lots",
+  "brief": "This tool helps designers comply with the impermeability bylaw for the maximum amount of building and hardscape that can be built on R1-1 lots, as well as how different percentages of permeability affect stormwater management in the city.",
+  "description": "Checks the 75% impermeable and 50% building limits on one R1-1 lot with editable paving figures, and a city-wide slider that colours every lot and translates the share into stormwater volume against the Rain City 40% target.",
+  "tool_url": "https://kevinjinn6.github.io/arch540-impermeable-materials/",
+  "tool_note": "",
+  "repo_url": "https://github.com/kevinjinn6/arch540-impermeable-materials",
+  "links": [],
+  "video": "https://github.com/GenEnv/arch540-a1-toolkit/releases/download/v1/10_Kevin_Jinn_Impermeable_Materials.mp4",
+  "poster": "img/10_poster.jpg",
+  "discussion": [
+    "Architecture by-laws are hard to separate because they condition each other; this landscape rule is refreshingly cut and dry.",
+    "Why is the red always on the south side of each lot? It is a visual ratio, not spatial, and it reads as spatial when zoomed in. A gradient (blue to red) would be clearer and works better when zoomed out while sliding the percentage. More generally, different visualizations per scale: 3D height for permeability, or a gradient whose range can be set to 0–100% or 20–80%.",
+    "Is 40% the rule of thumb for a new site? Yes, the Rain City target, though not always achievable.",
+    "Some lots are not coloured (a block on the right); whether they are R1-1 and why the data is missing will be checked.",
+    "Data: GIS plus the 2015 building footprints; the 2022 LiDAR (gigabytes) was not used.",
+    "Focusing on one niche of the by-law is valuable at the planning stage, and very helpful for a planner looking at the big picture.",
+    "A regulation applies to one lot but collectively shapes a larger form and informs decisions; link the map to quantitative layers (topography and even a basic runoff analysis, parks, hidden streams and creeks, rainwater infrastructure) for storytelling and for redesign at this scale. Landscape rules are not easy to isolate either; topography is the acknowledged limitation.",
+    "A planning argument: lots on the original natural streams should provide more permeable area, lots on ridges could take more impermeable surface, diverting water back to natural streams; this could become a parametric rule.",
+    "What counts as permeable? Concrete and asphalt are impermeable; soil to a certain depth, and gravel of a certain size and depth, count as permeable. The purpose is stormwater and flood management, and the rule stops clients from paving everything."
+  ]
+}

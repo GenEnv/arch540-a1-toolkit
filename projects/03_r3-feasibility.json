@@ -1,0 +1,21 @@
+{
+  "student": "Yeoneui Kim",
+  "tool": "R3 Zoning Feasibility Study Tool",
+  "subtitle": "What a Vancouver R3 lot can hold",
+  "brief": "R3 zoning allows small apartment buildings on what were single family housing streets, and this tool shows what a given lot can hold under the zoning and building code, including Vancouver's new single egress stair rules.",
+  "description": "Pick an R3 lot, see the permitted density and what assembling parcels adds, choose storeys and layout preferences, generate a unit plan and read a code summary of what is met. Also a test bed for the single-egress stair rule.",
+  "tool_url": "https://yeony7626.github.io/vancouver-r3-feasibility-study/",
+  "tool_note": "",
+  "repo_url": "https://github.com/Yeony7626/vancouver-r3-feasibility-study",
+  "links": [],
+  "video": "https://github.com/GenEnv/arch540-a1-toolkit/releases/download/v1/03_Yeoneui_Kim_R3_Feasibility_Study.mp4",
+  "poster": "img/03_poster.jpg",
+  "discussion": [
+    "Making the user walk through each code item, so the design \"plops out\" of the code, is a strong step that makes the logic very clear.",
+    "The hardest part was unit generation. The model reads rules well but lacks architectural judgement, so early units were hideous. The problem was bounded (a guided prompt with limits) while leaving the user some freedom. Workflow: export the plan as JSON, feed it back with critique so Claude learns the preference; after the class on loops, agents that learned those preferences ran ten layouts through five feedback rounds. Results improved but still produce odd plans.",
+    "Let people test the tool for a period and review the generated designs so it learns which floor plans not to produce.",
+    "The embedded generative feature is a strength, as is feeding domain knowledge or an expert's own criteria through a multi-agent workflow. Opportunity: a firm could upload its own unit, window and door libraries and ask the AI to adapt that library to the plan and iterate.",
+    "The graphics look much better on the Zoom screen than on the projector.",
+    "User-experience feedback was requested specifically, since interface design was left out of most people's process. Reviews are not limited to the two assigned reviewers; they can go to GitHub issues or the class deck's speaker notes."
+  ]
+}
