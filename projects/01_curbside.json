@@ -8,11 +8,11 @@
   "repo_url": "https://github.com/JennaBruggeman/curbside",
   "links": [
     {
-      "label": "Demo at the review",
-      "url": "https://drive.google.com/file/d/1WmbB75r08ZoB59ggXat1GLcJHzudA3DA/view"
+      "label": "Walkthrough video",
+      "url": "https://jennabruggeman.github.io/curbside/demo/walkthrough.mp4"
     }
   ],
-  "video": "https://jennabruggeman.github.io/curbside/demo/walkthrough.mp4",
+  "video": "https://drive.google.com/file/d/1WmbB75r08ZoB59ggXat1GLcJHzudA3DA/view",
   "poster": "img/01_poster.jpg",
   "discussion": [
     "How do the priorities drive generation? They bias the scheme: umbrellas appear if shading ranks first, and a low seating rank yields more open space instead of furniture. Material preferences are still being built out, and the parklet footprint can also be drawn freehand, for instance as a linear parklet.",
